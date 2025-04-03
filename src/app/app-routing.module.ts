@@ -12,4 +12,3 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 
-//prueba de comit xddddd// 
