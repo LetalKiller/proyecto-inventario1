@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My Angular App
 
 This is a simple Angular application created to demonstrate the basic structure and functionality of an Angular project.
@@ -57,3 +58,7 @@ To get started with this project, follow these steps:
 ## Contributing
 
 Feel free to submit issues or pull requests for improvements or bug fixes.
+=======
+# proyecto-inventario
+proyecto 3 parcial portales web 2
+>>>>>>> 752e47f93695becee2c6c248d99a5770429d8cf3
