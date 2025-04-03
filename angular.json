@@ -1,4 +1,7 @@
 {
+  "cli": {
+    "analytics": "a6d0d567-d69d-4ff1-9af1-2c7090278f44"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
