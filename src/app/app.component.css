@@ -1,0 +1,39 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar nav {
+  display: flex;
+  gap: 10px;
+}
+
+mat-toolbar a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+mat-toolbar a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+}

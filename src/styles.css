@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+p {
+  color: #666;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.team-logo {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.navbar {
+  background-color: #90c1f1; /* Cambia el color de fondo del menú de navegación */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #000000 !important; /* Color del texto del menú de navegación */
+}
+
+.navbar .nav-link:hover {
+  color: #1900ff !important; /* Color del texto al pasar el cursor */
+}
+
+.team-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.team-list li {
+  margin: 10px 0;
+}
+
+.team-list li button {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: 1px solid transparent; /* Sin borde por defecto */
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.team-list li button:hover {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo azul claro al pasar el cursor */
+  color: #007bff; /* Color del texto azul al pasar el cursor */
+  border-color: #007bff; /* Borde azul al pasar el cursor */
+}
+
+.team-list li strong {
+  color: inherit;
+  margin-left: 15px;
+}
+
+.team-list li p {
+  margin: 5px 0 0;
+  color: inherit;
+  margin-left: 15px;
+}
