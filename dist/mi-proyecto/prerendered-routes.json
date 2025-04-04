@@ -1,0 +1,13 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/bulls": {},
+    "/celtics": {},
+    "/contact": {},
+    "/heat": {},
+    "/lakers": {},
+    "/services": {},
+    "/warriors": {}
+  }
+}
