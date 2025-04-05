@@ -1,0 +1,21 @@
+.container {
+    padding: 20px;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-list li strong {
+    color: #333;
+  }
+  
+  .user-list li span {
+    color: #666;
+  }

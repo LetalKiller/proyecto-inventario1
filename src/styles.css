@@ -82,3 +82,88 @@ p {
   color: inherit;
   margin-left: 15px;
 }
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.category-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.btn-no-background {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-no-background img {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-no-background strong {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.btn-no-background p {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+
+.custom-button {
+  background-color: #f9f9f9; /* Fondo claro */
+  border: 1px solid #ddd; /* Borde sutil */
+  border-radius: 5px; /* Bordes ligeramente redondeados */
+  padding: 10px 20px; /* Menor espacio interno para hacerlo más pequeño */
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s; /* Animación al pasar el mouse */
+  width: auto; /* Ajusta el ancho al contenido */
+  max-width: 250px; /* Limita el ancho máximo */
+  margin: 10px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.custom-button:hover {
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Sombra más intensa */
+}
+
+.button-icon {
+  width: 60px; /* Imagen más pequeña */
+  height: 60px;
+  margin-bottom: 5px;
+}
+
+.custom-button strong {
+  display: block;
+  font-size: 16px; /* Texto más pequeño */
+  color: #333; /* Texto oscuro */
+  margin-bottom: 3px;
+}
+
+.custom-button p {
+  font-size: 12px; /* Texto más pequeño */
+  color: #666; /* Texto gris */
+  margin: 0;
+}
