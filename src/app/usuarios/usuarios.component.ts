@@ -40,7 +40,7 @@ export class UsuariosComponent implements OnInit {
         console.log('Respuesta del servidor:', response);
         alert(response.message); // Mensaje de éxito
         this.userLoggedIn.emit(this.username); // Emite el nombre del usuario al componente principal
-        this.router.navigate(['/']); // Redirige a la pantalla principal
+        this.router.navigate(['/productos']); // Redirige a la pantalla principal
       },
       (error) => {
         console.error('Error del servidor:', error);
