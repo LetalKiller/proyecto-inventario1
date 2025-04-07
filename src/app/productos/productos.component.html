@@ -1,0 +1,37 @@
+<div class="container">
+    <h2>Gestión de Productos</h2>
+  
+    <form (ngSubmit)="agregarProducto()" #productoForm="ngForm">
+      <input type="text" name="nombre" [(ngModel)]="nuevoProducto.nombre" placeholder="Nombre" required>
+      <input type="text" name="descripcion" [(ngModel)]="nuevoProducto.descripcion" placeholder="Descripción" required>
+      <input type="number" name="precio" [(ngModel)]="nuevoProducto.precio" placeholder="Precio" step="0.01" required>
+      <input type="number" name="stock" [(ngModel)]="nuevoProducto.stock" placeholder="Stock" required>
+      <button type="submit" [disabled]="!productoForm.valid">Agregar Producto</button>
+    </form>
+  
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Descripción</th>
+          <th>Precio</th>
+          <th>Stock</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let producto of productos">
+          <td>{{ producto.id }}</td>
+          <td>{{ producto.nombre }}</td>
+          <td>{{ producto.descripcion }}</td>
+          <td>{{ producto.precio | currency }}</td>
+          <td>{{ producto.stock }}</td>
+          <td>
+            <button (click)="eliminarProducto(producto.id!)">Eliminar</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
